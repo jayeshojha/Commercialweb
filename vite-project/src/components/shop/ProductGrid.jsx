@@ -41,9 +41,9 @@ export function ProductGrid({
           {displayed.map((product) => (
             <div
               key={product.id}
-              className={`col-12 col-md-4 ${
+              className={`col-6 col-md-4 ${
                 showIntro ? "col-lg-3" : "col-lg-3"
-              } mb-5`}
+              } mb-4 mb-md-5`}
             >
               <ProductCard product={product} />
             </div>

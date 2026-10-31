@@ -88,7 +88,7 @@ export function Shop() {
               {filteredItems.map((product) => (
                 <div
                   key={product.id}
-                  className="col-12 col-md-4 col-lg-3 mb-5"
+                  className="col-6 col-md-4 col-lg-3 mb-4 mb-md-5"
                 >
                   <ProductCard product={product} />
                 </div>

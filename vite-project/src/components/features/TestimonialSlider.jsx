@@ -95,7 +95,7 @@ export function TestimonialSlider() {
               {/* Active Testimonial Item */}
               <div className="item py-4">
                 <div className="row justify-content-center">
-                  <div className="col-lg-8 mx-auto">
+                  <div className="col-lg-8 mx-auto px-4 px-md-5">
                     <div className="testimonial-block text-center">
                       <blockquote className="mb-5">
                         <p className="fs-5 fst-italic text-secondary">
