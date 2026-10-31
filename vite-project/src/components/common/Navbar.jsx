@@ -102,7 +102,7 @@ export function Navbar() {
                   }}
                   title="Sign Out"
                 >
-                  Logout ({user?.displayName || "Account"})
+                  Logout
                 </button>
               </li>
             ) : (
